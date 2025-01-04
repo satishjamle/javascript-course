@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+
+    <style>
+        #btn{
+            padding: 10px 14px;
+            background-color: rgb(136, 49, 49);
+            border: 2px salid black;
+            color: aliceblue;
+            font-weight: bold;
+            border-radius: 8px;
+        }
+    </style>
+    <div class="conainer">
+
+      <p id="para">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est illo quae
+        asperiores et odio aliquam quos praesentium quia ratione rem quaerat a
+        nesciunt error enim totam, perferendis dolor odit vero.lo Lorem, ipsum
+        dolor sit amet consectetur adipisicing elit. Est illo quae asperiores et
+        odio aliquam quos praesentium quia ratione rem quaerat a nesciunt error
+        enim totam, perferendis dolor odit vero.lo Lorem, ipsum dolor sit amet
+        consectetur adipisicing elit. Est illo quae asperiores et odio aliquam
+        quos praesentium quia ratione rem quaerat a nesciunt error enim totam,
+        perferendis dolor odit vero.lo
+      </p>
+    </div>
+    <button id="btn" onclick="togglehide()">show/hide</button>
+    <script>
+      function togglehide() {
+        let btn = document.getElementById("btn");
+        let para = document.getElementById("para");
+
+        if (para.style.display != "none") {
+          para.style.display = "none";
+        } 
+        else {
+          para.style.display = "block";
+        }
+      }
+//---------------------
+
+let para = document.getElementById('para');
+para.addEventListener('mouseover', function run(){
+    console.log('mouse Inside')
+
+} );
+
+para.addEventListener('mouseout' , function run(){
+    console.log('mouse now went outside')
+})
+
+
+
+    </script>
+  </body>
+</html>
