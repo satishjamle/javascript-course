@@ -11,23 +11,23 @@
 // u = undefined let g = ?
 
 
-let a =  null; 
-let b = 345;
-let c = Symbol('i am a symbol asing');
-let d = "satish";
-let e = true// can also be false
-let f = BigInt('567') + BigInt('5')
-let g = undefined
+// let a =  null; 
+// let b = 345;
+// let c = Symbol('i am a symbol asing');
+// let d = "satish";
+// let e = true// can also be false
+// let f = BigInt('567') + BigInt('5')
+// let g = undefined
 
-console.log(a,b,c,d,e,f,g)
+// console.log(a,b,c,d,e,f,g)
 
-console.log(typeof(a))
-console.log(typeof(b))
-console.log(typeof(c))
-console.log(typeof(d))
-console.log(typeof(e))
-console.log(typeof(f))
-console.log(typeof(g))
+// console.log(typeof(a))
+// console.log(typeof(b))
+// console.log(typeof(c))
+// console.log(typeof(d))
+// console.log(typeof(e))
+// console.log(typeof(f))
+// console.log(typeof(g))
 
 
 
@@ -38,16 +38,16 @@ console.log(typeof(g))
 // Array;
 // function;
 
-const items ={
-    name:"satish",
-    plcace: "indore",
-    college :'Davv'
-}
-console.log(items)
+// const items ={
+//     name:"satish",
+//     plcace: "indore",
+//     college :'Davv'
+// }
+// console.log(items)
 
-console.log(items['plcace'])  //type of lookup
-console.log(items['college'])
+// console.log(items['plcace'])  //type of lookup
+// console.log(items['college'])
 
-console.log(typeof(items))
+// console.log(typeof(items))
 
 
