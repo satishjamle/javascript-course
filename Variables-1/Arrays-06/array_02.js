@@ -121,3 +121,132 @@
 //  let newarray1 = array1.slice(3,6)
 //   // 3 se start krega 5 ko include nhi krega lakar sare element milege
 //  console.log(newarray1)
+
+//  let array1 = [54, 45, 23, 12, 54, 55, 15, "not present"]
+
+//  console.log(array1.length)
+//  console.log(array1)
+
+// new array add
+
+// let arr = [1,3,4,5]
+// console.log(arr)
+// arr[0] = 2  // value change
+
+// arr[4] = 7  // new array add
+// console.log(arr)
+
+// let arr = [1,3,4,5]
+// let array = arr.map((value,index,array)=>{
+//     console.log(value,index,array)
+
+//     return value+index;
+
+// })
+// console.log(array)
+
+// let arr = [1,3,4,5]
+// let newarray =arr.filter((b)=>{
+//     return b < 4
+
+// })
+// console.log(newarray)
+
+//  let arr = [1,3,4,5]
+//  let reduce = arr.reduce((a1,a2)=>{
+//      return a1 + a2;
+
+//  })
+//  console.log(reduce)
+
+// let arr = [1,2,34,5,6]
+// let n = prompt('enter a number')
+//  n = Number.parseInt(n)
+// arr.push(n)
+// console.log(arr)
+
+// let a = [1,3,4,5]
+// let n = prompt('enter a number')
+// n = Number.parseInt(n)
+// a.push(10)
+// console.log(a)
+// console.log(typeof(a))
+
+// let a =[1,23,4,5]
+// a.pop()
+// console.log(a)
+
+// let b =[1,23,4,5]
+// b.push(7)
+// console.log(b)
+
+// const student = [
+//   {
+//     name: "satish",
+//     marks: 70,
+//   },
+//   {
+//     name: "vijay",
+//     marks: 45,
+//   },
+//   {
+//     name: "ajay",
+//     marks: 60,
+//   },
+//   {
+//     name: "jay",
+//     marks: 35,
+//   },
+//   {
+//     name: "nagjay",
+//     marks: 65,
+//   },
+// ];
+
+// const failedstudent = student.filter((student)=>{  
+
+//     return  student.marks < 60;
+
+// })
+// console.log(failedstudent)
+
+
+
+// const failedstudent = student.filter((student)=>{  
+//  if(student.marks < 55)
+//  {
+//     return true;
+//  }
+//  else false;
+
+// })
+// console.log(failedstudent)
+
+
+// const user =[ 
+//     {
+//     name : "abc",
+//     id : 3
+// },
+// {
+//     name :  'xyz',
+//     id : 9
+// },
+// {
+//     name  : 'pqr',
+//     id : 3
+
+// }
+
+// ]
+
+// const useradmin = user.find((user => {
+//     if(user.id == 3){
+//         return true;
+
+//     }
+//     else{
+//         return false ;
+//     }
+// }))
+// console.log(useradmin)
