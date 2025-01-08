@@ -24,3 +24,4 @@ console.log(document.body.getElementsByTagName("a"))
 console.log(document.querySelector(".card").getElementsByTagName("a"))
 
 console.log(document.getElementsByName('search'))
+

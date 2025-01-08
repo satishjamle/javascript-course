@@ -69,3 +69,12 @@
 // document. documentElement. parentsElement
 // agar parents ek element hoga tbhi return kiya jayega nhi tho null aayega 
 
+// console.log : show the elelment dom tree
+// console dir: shows the element as an oject with its properties
+
+
+
+//tagName /NodeName
+// used to read to name of an element
+//tagName : only exist for element nodes
+// nodeName : defined for any node(text, comment,etc)
