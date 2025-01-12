@@ -247,3 +247,37 @@
 // let y =(Fnmae, Lname)=> Fnmae+Lname;
 
 // console.log(y("satish ",'jamle'))
+
+
+
+
+// const sayhello =()=> console.log('hello')
+
+// sayhello()
+
+
+// const sayhello = name => {
+//     console.log("greeting "+""+ name)
+//     console.log("hii user")
+// }
+// sayhello("good morning")
+
+
+
+
+
+// const  x = {
+//     name : "satish",
+//     role : "developer",
+//     exp : 5,
+
+//     show:  function(){
+//         setTimeout(() => {
+//             console.log(`my name is ${this.name} \n The role is ${this.role}`)
+            
+//         }, 2000);
+
+
+//     }
+// }
+// x.show()
